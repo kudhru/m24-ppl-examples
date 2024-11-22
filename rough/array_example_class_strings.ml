@@ -7,9 +7,9 @@
   Printf.printf "\n";;
 
   let compare_string_length a b =
-    if (String.length a > String.length b)
+    if (String.length a < String.length b)
       then -1
-  else if (String.length a < String.length b)
+  else if (String.length a > String.length b)
     then 1
   else 0;;
 

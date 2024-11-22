@@ -1,6 +1,7 @@
 (* Define arr1 at the top level *)
 let arr0 = [| 2; 3; 4; 5; 6; 7; 8 |];;
-Array.iter (fun x -> Printf.printf "%d " x) arr0;
+Array.map (fun x -> x + 1) arr0;;
+(* Array.iter (fun x -> Printf.printf "%d " x) arr0; *)
 Printf.printf "\n";;
 
 let arr1 = Array.make 5 0;;
