@@ -23,7 +23,7 @@ let len = Array.length arr1 in
 Printf.printf "Length of arr1: %d\n" len;;
 
 (* Array access using .() syntax *)
-let first = arr2.(0) in
+let first = arr2.(4) in
 Printf.printf "First element of arr2: %d\n" first;;
 arr2.(0) <- 10;
 Printf.printf "arr2 after setting first element to 10: ";
